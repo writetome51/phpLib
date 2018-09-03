@@ -4,7 +4,7 @@
 
 
 function appendSingle($item, &$arrayToModify): void {
-	array_push($arrayToModify, $item);
+	$arrayToModify[] = $item;
 }
 
 

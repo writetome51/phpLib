@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5ff000-c240-42dd-b669-0fa9cfcc95cf" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/functions/arrays/remove.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/arrays/append_and_prepend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ymdtime.php" beforeDir="false" afterPath="$PROJECT_DIR$/ymdtime.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,17 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="arrays.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arrays.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&amp;$array</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&amp;$arrayToModify</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +34,9 @@
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/IDataContainer.php" />
         <option value="$PROJECT_DIR$/arrays.php" />
+        <option value="$PROJECT_DIR$/array_or_string_content.php" />
+        <option value="$PROJECT_DIR$/ymdtime.php" />
+        <option value="$PROJECT_DIR$/functions/arrays/remove.php" />
       </list>
     </option>
   </component>
@@ -64,6 +68,11 @@
               <item name="steve_thompson_phplib" type="b2602c69:ProjectViewProjectNode" />
               <item name="steve_thompson_phplib" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="steve_thompson_phplib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="steve_thompson_phplib" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -78,6 +87,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/functions/arrays" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -90,15 +104,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.arrays.php">
-    <configuration name="arrays.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/arrays.php" />
+  <component name="RunManager" selected="PHP Script.remove.php">
+    <configuration name="append_and_prepend.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/functions/arrays/append_and_prepend.php" />
+    <configuration name="remove.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/functions/arrays/remove.php" />
     <list>
       <item itemvalue="PHP Script.functions.php" />
-      <item itemvalue="PHP Script.arrays.php" />
+      <item itemvalue="PHP Script.append_and_prepend.php" />
+      <item itemvalue="PHP Script.remove.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.arrays.php" />
+        <item itemvalue="PHP Script.remove.php" />
+        <item itemvalue="PHP Script.append_and_prepend.php" />
       </list>
     </recent_temporary>
   </component>
@@ -116,27 +133,26 @@
       <workItem from="1535750403542" duration="1886000" />
       <workItem from="1535752313790" duration="122000" />
       <workItem from="1535832771890" duration="1147000" />
-      <workItem from="1535931887886" duration="1979000" />
+      <workItem from="1535931887886" duration="4657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5563000" />
+    <option name="totallyTimeSpent" value="8241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.3292683" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33923706" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33923706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32833788" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.5095368" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -166,17 +182,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IDataContainer.php" />
+    <entry file="file://$PROJECT_DIR$/ymdtime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#9#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/array_or_string_content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/arrays/append_and_prepend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrays.php">
+    <entry file="file://$PROJECT_DIR$/functions/arrays/remove.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="405">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
